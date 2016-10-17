@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-GoogleAnalytics"
-  s.version          = "1.1.4"
+  s.version          = "1.1.5"
   s.summary          = "Google Analytics Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://segment.com/"
   s.license          =  { :type => 'MIT' }
   s.author           = { "Segment" => "friends@segment.com" }
-  s.source           = { :git => "https://github.com/segment-integrations/analytics-ios-integration-google-analytics.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Munchery-KleinLieu/analytics-ios-integration-google-analytics.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/segment'
 
   s.platform     = :ios, '8.0'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.dependency 'Analytics', '~> 3.0'
+  s.dependency 'Analytics', '~> 3.5.2'
   s.dependency 'GoogleAnalytics', '~> 3.14'
 
   s.subspec 'GoogleIDFASupport' do |idfa|
